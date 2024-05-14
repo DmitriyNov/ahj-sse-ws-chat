@@ -89,21 +89,11 @@
   background-color: #f6c5dc;
 }
 
-
 .modal__ok {
   margin-left: 10px;
   border-color: #58bf97;
   background-color: #58bf97;
 }
-
-
-
-
-
-
-
-
-
 
 .modal__form.active .modal__background,
 .modal__delete.active .modal__background{

@@ -83,13 +83,19 @@ h1 {
   padding-left: 10px;
   padding-right: 10px;
   box-sizing: border-box;
+  display: block;
+  width: 100%;
+  padding: 10px;
+  margin-top: 5px;
+  border: 1px  solid #c9cacc;
+  border-radius: 5px;
 }
 
 .form .form__group {
   margin-bottom: 0;
 }
 
-.form .form__input {
+.form .chat__messages-input {
   margin-top: 8px;
   border-color: #e2e5e9;
 }
@@ -130,7 +136,7 @@ h1 {
   text-align: right;
 }
 
-.message__container-yourself .message__header {
+.message__container-yourself > .message__header {
   color: #20b1df;
 }
 
